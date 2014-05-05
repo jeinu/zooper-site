@@ -1,0 +1,84 @@
+/* Basic Resets */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+img {
+  border: 0;
+}
+
+/* User Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  height: 70px;
+  width: 100%;
+}
+
+nav {
+}
+
+nav ul {
+  width: 50%;
+  margin: 45px auto 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 25px;
+}
+
+main {
+
+}
+
+.page {
+  height: 720px;
+  padding: 70px 30px;
+  margin: 0 auto;
+}
+
+#about {
+  background: moccasin;
+}
+
+#animals {
+  background: tomato;
+}
+
+#keepers {
+  background: mediumseagreen;
+}
+
+#contact {
+  background: lightskyblue;
+}
+
+a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: tomato;
+}
