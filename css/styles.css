@@ -91,3 +91,7 @@ a:hover,
 a:active {
   color: tomato;
 }
+
+.round {
+  border-radius: 9999px;
+}
